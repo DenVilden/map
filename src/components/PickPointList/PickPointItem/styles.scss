@@ -1,0 +1,44 @@
+.wrapper {
+  background-color: rgb(54, 58, 60);
+  border: 1px solid #252a2c;
+  cursor: pointer;
+  margin-bottom: 8px;
+  overflow-y: auto;
+  padding: 10px 0 13px 13px;
+
+  &:hover {
+    background-color: rgb(59, 69, 71);
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0 0 15px;
+  }
+
+  div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 440px) {
+      display: block;
+    }
+  }
+
+  span {
+    background-color: #282c2d;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-right: 12px;
+    padding: 5px 10px;
+
+    @media (min-width: 440px) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.active {
+  background-color: rgb(59, 69, 71);
+}

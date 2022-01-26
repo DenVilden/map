@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: rgb(37, 39, 41);
+  border: 2px solid #3a3d3e;
+  min-height: 504px;
+  padding: 12px 7px;
+
+  @media (min-width: 1000px) {
+    display: flex;
+    height: 504px;
+  }
+}

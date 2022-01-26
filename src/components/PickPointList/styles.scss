@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: 1000px) {
+    padding-right: 4px;
+    width: 40%;
+  }
+}
